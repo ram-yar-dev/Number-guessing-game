@@ -1,0 +1,45 @@
+
+body{
+    font-size: 2em;
+    
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(68, 100%, 70%);
+}
+.box{
+    width: 350px;
+    height: 350px;
+    background-color:hsl(68, 100%, 80%) ;
+    margin: auto;
+}
+#myinput{
+    font-size: 2.5em;
+    text-align: center;
+    width: 2em;
+    background-color: rgba(0, 0, 0, 0.304);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-attachment: none;
+    margin: 10px;
+}
+#mysubmit{
+    font-size: 2em;
+    align-items: center;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 0%);
+    color: rgb(219, 219, 219);
+    border: 2px solid rgb(181, 183, 132);
+    border-radius: 10px;
+    
+}
+#mysubmit:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+#mysubmit:active{
+    background-color: hsl(0, 0%, 20%);
+}
+#result{
+    text-align: center;
+    font-size: 2em;
+    
+}
